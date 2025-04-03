@@ -15,3 +15,13 @@ function checkCountValue() {
         alert(`Your Instagram post gained ${count} followers! Keep going!`);
     }
 }
+
+
+// function resetCount(){
+    let btn= document.getElementById('reset-btn');
+    btn.addEventListener('click',()=>{
+count=0;
+displayCount();
+alert('The followers are 0 right-now')
+    })
+// }
